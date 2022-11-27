@@ -6,11 +6,11 @@ export default function Profile() {
       <div class={styles["card-container"]}>
         <img
           class={styles["round"]}
-          src="https://randomuser.me/api/portraits/women/79.jpg"
+          src="https://i.ibb.co/f2P5LHD/pfp.jpg"
           alt="user"
         />
-        <h3 class={styles["h3"]}>Ricky Park</h3>
-        <h6 class={styles["h6"]}>New York</h6>
+        <h3 class={styles["h3"]}>Herman Kritzinger</h3>
+        <h6 class={styles["h6"]}>Stellenbosch</h6>
         <p class={styles["par"]}>
           User interface designer and <br /> front-end developer
         </p>
