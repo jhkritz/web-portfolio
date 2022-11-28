@@ -26,13 +26,35 @@
 }
 
 .image {
+  transition: all 0.5s;
+  background-image: url(https://thumbs.dreamstime.com/b/close-up-asian-man-shows-hand-gestures-means-interpreter-appreciation-isolated-white-background-american-sign-language-156606585.jpg);
+  background-size: cover;
+  background-position-x: -130px;
   margin: auto;
   width: 20em;
   height: 23em;
-  background-color: aqua;
   border-radius: 32px;
   transform: translateX(-45%) translateY(6%);
-  margin-right: 0px;
+  margin-right: 18px;
+  margin-top: 35px;
+}
+
+.image:hover {
+  transition: all 0.5s;
+  background-image: url(https://img.freepik.com/free-photo/front-view-sign-language-concept_23-2148572497.jpg?w=2000);
+}
+
+.image:not(:hover) {
+  transition: all 0.5s;
+  background-image: url(https://thumbs.dreamstime.com/b/close-up-asian-man-shows-hand-gestures-means-interpreter-appreciation-isolated-white-background-american-sign-language-156606585.jpg);
+  background-size: cover;
+  background-position-x: -130px;
+  margin: auto;
+  width: 20em;
+  height: 23em;
+  border-radius: 32px;
+  transform: translateX(-45%) translateY(6%);
+  margin-right: 18px;
   margin-top: 35px;
 }
 

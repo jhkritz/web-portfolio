@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import styles from "./card.module.css";
 
 export default function ProductCard() {
