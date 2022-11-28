@@ -1,19 +1,16 @@
 import * as React from "react";
-import { Grid } from "@nextui-org/react";
 import Blob from "../components/blob";
 import Card from "../components/ProjectCard";
 import Profile from "../components/profile";
-import NavBlob from "../components/navbarblob";
+import ProductCard from "../components/card";
 
 export default function App() {
   return (
     <div>
-      {/* <NavBlob></NavBlob> */}
-
       <Blob></Blob>
       <Card></Card>
+      <ProductCard></ProductCard>
       <Profile></Profile>
-      {/* <Card5></Card5> */}
     </div>
   );
 }
