@@ -29,12 +29,11 @@
 .title {
   font-family: Mark Pro, sans-serif;
   font-size: 2.6rem;
-  margin-bottom: 1rem;
   color: white;
   align-items: center;
   justify-content: space-around;
   text-align: center;
-  margin-bottom: 10vh;
+  margin-bottom: 13vh;
 }
 
 .btn {
