@@ -10,6 +10,9 @@ export default function App() {
     <div>
       <Blob></Blob>
       <ProductCard></ProductCard>
+      <ProductCard></ProductCard>
+      <ProductCard></ProductCard>
+      <ProductCard></ProductCard>
       <Profile></Profile>
       <Snip></Snip>
     </div>

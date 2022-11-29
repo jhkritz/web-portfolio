@@ -1,4 +1,5 @@
-const btn = `<div class="wrapper">
+const btn = `
+<div class="wrapper">
 <input type="checkbox">
 <div class="video">
   <video src="https://drive.google.com/uc?export=download&id=1SGC8eoLstgT6_qMy82wUQ3QRpG4r3Wpr" loop muted autoplay playsinline></video>
@@ -7,6 +8,8 @@ const btn = `<div class="wrapper">
   <span data-text="Explore"></span>
 </div>
 </div>
+
+
 
 <style>
 .wrapper {
@@ -134,14 +137,7 @@ const btn = `<div class="wrapper">
     height: 100%;
     border-radius: 0;
   }
-  .wrapper input:checked ~ .video {
-    -webkit-clip-path: var(--clip-path-clicked);
-            clip-path: var(--clip-path-clicked);
-  }
-  .wrapper input:checked ~ .text {
-    --opacity: 0;
-    transition: opacity 0.3s var(--timing-function);
-  }
+  
   .wrapper input:checked ~ .text::after {
     -webkit-clip-path: var(--clip-path-clicked);
             clip-path: var(--clip-path-clicked);
