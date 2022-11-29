@@ -1,5 +1,6 @@
 import styles from "./blob.module.css";
 import ReactDOM from "react-dom";
+import Explore from "./explorebtn";
 
 export default function Blob() {
   return (
@@ -7,6 +8,9 @@ export default function Blob() {
       <h1 class={styles["title"]}>
         Creative developer & designer crafting <br></br> unique web experiences.
       </h1>
+      <div class={styles["exp"]}>
+        <Explore></Explore>
+      </div>
       <div class={styles["blob"]}>
         <div class={styles["medblob"]}>
           <div class={styles["smallblob"]}></div>

@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet";
+import React, { useState } from "react";
 import styles from "./card.module.css";
 
 export default function ProductCard() {
