@@ -9,15 +9,13 @@ const btn = `
 </div>
 </div>
 
-
-
 <style>
 .wrapper {
     font-family: Mark Pro, sans-serif;
     --color: #1F242D;
     --color-invert: #ffffff;
     --clip-path: circle(15px at left);
-    --clip-path-hover: circle(70px at left);
+    --clip-path-hover: circle(50px at left);
     --clip-path-clicked: circle(100vw at left);
     --duration: .4s;
     --timing-function: ease;
