@@ -2,7 +2,7 @@ const btn = `
 <div class="wrapper">
 <input type="checkbox">
 <div class="video">
-  <video src="https://drive.google.com/uc?export=download&id=1SGC8eoLstgT6_qMy82wUQ3QRpG4r3Wpr" loop muted autoplay playsinline></video>
+  <video src="https://drive.google.com/uc?export=download&id=143ArU-p8QBYP4aZW1JvVLzoSQOwl4ENi" loop muted autoplay playsinline></video>
 </div>
 <div class="text">
   <span data-text="Explore"></span>
