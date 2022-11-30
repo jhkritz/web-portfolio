@@ -115,8 +115,8 @@
 .image2 {
   transition: all 0.5s;
   background-image: url(https://i.ibb.co/QYkj4gQ/hands.jpg);
-  background-size: 380px;
-  background-position-x: -30px;
+  background-size: 400px;
+  background-position-x: -40px;
   background-position-y: 0px;
   margin: auto;
   width: 20em;
@@ -138,8 +138,8 @@
 .image2:not(:hover) {
   transition: all 0.5s;
   background-image: url(https://i.ibb.co/QYkj4gQ/hands.jpg);
-  background-size: 380px;
-  background-position-x: -30px;
+  background-size: 400px;
+  background-position-x: -40px;
   background-position-y: 0px;
   margin: auto;
   width: 20em;
