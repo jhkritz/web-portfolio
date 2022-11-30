@@ -52,11 +52,34 @@
   transform: rotate(-90deg) translateX(-208%) translateY(3%);
 }
 
+.left-text2 {
+  font-family: Mark Pro, sans-serif;
+  font-size: 0.8rem;
+  color: rgb(145, 136, 136);
+  transform-origin: top left;
+  left: 0;
+  top: 50%;
+  font-weight: 600;
+  transform: rotate(-90deg) translateX(-200%) translateY(3%);
+}
+
+.left-text3 {
+  font-family: Mark Pro, sans-serif;
+  font-size: 0.8rem;
+  color: rgb(145, 136, 136);
+  transform-origin: top left;
+  left: 0;
+  top: 50%;
+  font-weight: 600;
+  transform: rotate(-90deg) translateX(-185%) translateY(3%);
+}
+
 .image {
   transition: all 0.5s;
-  background-image: url(https://thumbs.dreamstime.com/b/close-up-asian-man-shows-hand-gestures-means-interpreter-appreciation-isolated-white-background-american-sign-language-156606585.jpg);
-  background-size: cover;
-  background-position-x: -130px;
+  background-image: url(https://i.ibb.co/cgn7HnV/blobwallpaper.jpg);
+  background-size: 680px;
+  background-position-x: -80px;
+  background-position-y: 10px;
   margin: auto;
   width: 20em;
   height: 23em;
@@ -68,14 +91,94 @@
 
 .image:hover {
   transition: all 0.5s;
-  background-image: url(https://img.freepik.com/free-photo/front-view-sign-language-concept_23-2148572497.jpg?w=2000);
+  background-size: cover;
+  background-position-x: -168px;
+  background-position-y: 0px;
+  background-image: url(https://i.ibb.co/CV0GpcP/react2.png);
 }
 
 .image:not(:hover) {
   transition: all 0.5s;
-  background-image: url(https://thumbs.dreamstime.com/b/close-up-asian-man-shows-hand-gestures-means-interpreter-appreciation-isolated-white-background-american-sign-language-156606585.jpg);
+  background-image: url(https://i.ibb.co/cgn7HnV/blobwallpaper.jpg);
+  background-size: 680px;
+  background-position-x: -80px;
+  background-position-y: 0px;
+  margin: auto;
+  width: 20em;
+  height: 23em;
+  border-radius: 32px;
+  transform: translateX(-45%) translateY(6%);
+  margin-right: 18px;
+  margin-top: 35px;
+}
+
+.image2 {
+  transition: all 0.5s;
+  background-image: url(https://i.ibb.co/QYkj4gQ/hands.jpg);
+  background-size: 380px;
+  background-position-x: -30px;
+  background-position-y: 0px;
+  margin: auto;
+  width: 20em;
+  height: 23em;
+  border-radius: 32px;
+  transform: translateX(-45%) translateY(6%);
+  margin-right: 18px;
+  margin-top: 35px;
+}
+
+.image2:hover {
+  transition: all 0.5s;
   background-size: cover;
-  background-position-x: -130px;
+  background-position-x: -168px;
+  background-position-y: -2px;
+  background-image: url(https://i.ibb.co/GH3sVTy/vuecardnew.png);
+}
+
+.image2:not(:hover) {
+  transition: all 0.5s;
+  background-image: url(https://i.ibb.co/QYkj4gQ/hands.jpg);
+  background-size: 380px;
+  background-position-x: -30px;
+  background-position-y: 0px;
+  margin: auto;
+  width: 20em;
+  height: 23em;
+  border-radius: 32px;
+  transform: translateX(-45%) translateY(6%);
+  margin-right: 18px;
+  margin-top: 35px;
+}
+
+.image3 {
+  transition: all 0.5s;
+  background-image: url(https://i.ibb.co/WHvmQ3Z/Tiny-doggies-in-an-ultrawide-painting.jpg);
+  background-size: cover contain;
+  background-position-x: -28px;
+  background-position-y: -7px;
+  margin: auto;
+  width: 20em;
+  height: 23em;
+  border-radius: 32px;
+  transform: translateX(-45%) translateY(6%);
+  margin-right: 18px;
+  margin-top: 35px;
+}
+
+.image3:hover {
+  transition: all 0.5s;
+  background-size: cover;
+  background-position-x: -168px;
+  background-position-y: -7px;
+  background-image: url(https://i.ibb.co/WVZBCCb/stability.png);
+}
+
+.image3:not(:hover) {
+  transition: all 0.5s;
+  background-image: url(https://i.ibb.co/WHvmQ3Z/Tiny-doggies-in-an-ultrawide-painting.jpg);
+  background-size: cover contain;
+  background-position-x: -28px;
+  background-position-y: -7px;
   margin: auto;
   width: 20em;
   height: 23em;
@@ -116,9 +219,13 @@
 }
 
 .link {
-  padding-left: 2px;
+  display: inline-block;
+  position: relative;
+  padding: 20px;
   font-family: Mark Pro, sans-serif;
   color: white;
+  cursor: pointer;
+  padding-left: 5px;
 }
 
 .iconsbox {
@@ -126,10 +233,12 @@
   padding: 65px;
   transform: translateX(-30%) translateY(-10%);
   color: white;
+  padding-top: 20px;
 }
 
 .icons {
   transform: scale(0.5);
+  cursor: pointer;
 }
 
 .heading {
