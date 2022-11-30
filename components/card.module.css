@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
   padding-bottom: 60px;
+  position: relative;
 }
 
 .card-container {
@@ -41,12 +42,14 @@
 }
 
 .left-text {
+  font-family: Mark Pro, sans-serif;
+  font-size: 0.8rem;
+  color: rgb(145, 136, 136);
   transform-origin: top left;
   left: 0;
   top: 50%;
-  /* transform: rotate(-90deg) translateX(-37%) translateY(220%); */
-  transform: rotate(-90deg) translateX(-235%) translateY(3%);
-  color: white;
+  font-weight: 600;
+  transform: rotate(-90deg) translateX(-208%) translateY(3%);
 }
 
 .image {
@@ -89,6 +92,17 @@
   margin-right: 10px;
   transform: translateX(-35%) translateY(20%);
   color: white;
+  margin-left: -10px;
+}
+
+.right-text2 {
+  transform-origin: top;
+  right: 0;
+  top: 50%;
+  margin-right: 10px;
+  transform: translateX(-30%) translateY(17%);
+  color: white;
+  margin-left: -10px;
 }
 
 .title {
@@ -96,11 +110,13 @@
 }
 
 .description {
+  padding-left: 2px;
   font-family: Mark Pro, sans-serif;
   padding-bottom: 30px;
 }
 
 .link {
+  padding-left: 2px;
   font-family: Mark Pro, sans-serif;
   color: white;
 }
@@ -114,4 +130,40 @@
 
 .icons {
   transform: scale(0.5);
+}
+
+.heading {
+  margin: auto;
+  width: 85%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  font-family: Mark Pro, sans-serif;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.maintitle {
+  font-family: Mark Pro, sans-serif;
+  font-size: 2.6rem;
+  color: white;
+  margin-bottom: 10px;
+  padding-right: 6px;
+}
+
+.subtitle {
+  font-family: Mark Pro, sans-serif;
+  font-size: 0.8rem;
+  color: rgb(145, 136, 136);
+  margin-bottom: 60px;
+  padding-left: 6px;
+}
+
+.icon {
+  position: relative;
+  float: left;
+  margin: -30em;
+  transform: scale(0.02) translateX(1050%) translateY(155%);
+  padding: 0;
 }

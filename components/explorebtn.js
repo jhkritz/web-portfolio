@@ -53,7 +53,7 @@ const btn = `
     position: relative;
     text-transform: uppercase;
     font-weight: 600;
-    letter-spacing: 0.2px;
+    letter-spacing: 4px;
     opacity: var(--opacity, 1);
     transition: opacity 0.3s var(--timing-function) 0.2s;
   }

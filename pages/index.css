@@ -29,3 +29,11 @@ body {
   color: rgb(145, 136, 136);
   margin-bottom: 60px;
 }
+
+.icon {
+  position: relative;
+  float: left;
+  margin: -30em;
+  transform: scale(0.02) translateX(1050%) translateY(155%);
+  padding: 0;
+}

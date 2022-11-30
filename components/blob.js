@@ -13,7 +13,7 @@ export default function Blob() {
   return (
     <div id="top" class={styles["container"]}>
       <h1 class={styles["title"]}>
-        Creative developer & designer crafting <br></br> unique web experiences.
+        creative developer & designer crafting <br></br> unique web experiences.
       </h1>
       <div onClick={onClick} class={styles["exp"]}>
         <Explore></Explore>
