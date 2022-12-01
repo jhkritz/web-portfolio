@@ -2,7 +2,7 @@ import styles from "./carousel.module.css";
 
 export default function Carousel() {
   return (
-    <div class={styles["head"]}>
+    <div className={styles["head"]}>
       <div className={styles["heading"]}>
         <h1 className={styles["maintitle"]}>
           Some other design projects
@@ -13,52 +13,52 @@ export default function Carousel() {
         </h1>
         <h2 className={styles["subtitle"]}></h2>
       </div>
-      <div class={styles["parent"]}>
-        <div class={styles["slider"]}>
-          <div class={styles["slide-track"]}>
-            <div class={styles["slide"]}></div>
-            <div class={styles["slide"]}></div>
-            <div class={styles["slide"]}></div>
-            <div class={styles["slide"]}></div>
-            <div class={styles["slide"]}></div>
-            <div class={styles["slide"]}></div>
-            <div class={styles["slide"]}></div>
-            <div class={styles["slide"]}></div>
-            <div class={styles["slide"]}></div>
-            <div class={styles["slide"]}></div>
-            <div class={styles["slide"]}></div>
-            <div class={styles["slide"]}></div>
-            <div class={styles["slide"]}></div>
-            <div class={styles["slide"]}></div>
-            <div class={styles["slide"]}></div>
-            <div class={styles["slide"]}></div>
-            <div class={styles["slide"]}></div>
-            <div class={styles["slide"]}></div>
+      <div className={styles["parent"]}>
+        <div className={styles["slider"]}>
+          <div className={styles["slide-track"]}>
+            <div className={styles["slide"]}></div>
+            <div className={styles["slide"]}></div>
+            <div className={styles["slide"]}></div>
+            <div className={styles["slide"]}></div>
+            <div className={styles["slide"]}></div>
+            <div className={styles["slide"]}></div>
+            <div className={styles["slide"]}></div>
+            <div className={styles["slide"]}></div>
+            <div className={styles["slide"]}></div>
+            <div className={styles["slide"]}></div>
+            <div className={styles["slide"]}></div>
+            <div className={styles["slide"]}></div>
+            <div className={styles["slide"]}></div>
+            <div className={styles["slide"]}></div>
+            <div className={styles["slide"]}></div>
+            <div className={styles["slide"]}></div>
+            <div className={styles["slide"]}></div>
+            <div className={styles["slide"]}></div>
           </div>
         </div>
       </div>
 
-      <div class={styles["parent"]}>
-        <div class={styles["slider2"]}>
-          <div class={styles["slide-track2"]}>
-            <div class={styles["slide2"]}></div>
-            <div class={styles["slide2"]}></div>
-            <div class={styles["slide2"]}></div>
-            <div class={styles["slide2"]}></div>
-            <div class={styles["slide2"]}></div>
-            <div class={styles["slide2"]}></div>
-            <div class={styles["slide2"]}></div>
-            <div class={styles["slide2"]}></div>
-            <div class={styles["slide2"]}></div>
-            <div class={styles["slide2"]}></div>
-            <div class={styles["slide2"]}></div>
-            <div class={styles["slide2"]}></div>
-            <div class={styles["slide2"]}></div>
-            <div class={styles["slide2"]}></div>
-            <div class={styles["slide2"]}></div>
-            <div class={styles["slide2"]}></div>
-            <div class={styles["slide2"]}></div>
-            <div class={styles["slide2"]}></div>
+      <div className={styles["parent"]}>
+        <div className={styles["slider2"]}>
+          <div className={styles["slide-track2"]}>
+            <div className={styles["slide2"]}></div>
+            <div className={styles["slide2"]}></div>
+            <div className={styles["slide2"]}></div>
+            <div className={styles["slide2"]}></div>
+            <div className={styles["slide2"]}></div>
+            <div className={styles["slide2"]}></div>
+            <div className={styles["slide2"]}></div>
+            <div className={styles["slide2"]}></div>
+            <div className={styles["slide2"]}></div>
+            <div className={styles["slide2"]}></div>
+            <div className={styles["slide2"]}></div>
+            <div className={styles["slide2"]}></div>
+            <div className={styles["slide2"]}></div>
+            <div className={styles["slide2"]}></div>
+            <div className={styles["slide2"]}></div>
+            <div className={styles["slide2"]}></div>
+            <div className={styles["slide2"]}></div>
+            <div className={styles["slide2"]}></div>
           </div>
         </div>
       </div>

@@ -2,34 +2,32 @@ import styles from "./profile.module.css";
 
 export default function Profile() {
   return (
-    <div class={styles["parent"]}>
-      <meta charset="UTF-8" />
-
-      <div class={styles["card-container"]}>
+    <div className={styles["parent"]}>
+      <div className={styles["card-container"]}>
         <img
-          class={styles["round"]}
+          className={styles["round"]}
           src="https://i.ibb.co/f2P5LHD/pfp.jpg"
           alt="user"
         />
-        <h3 class={styles["h3"]}>Herman Kritzinger</h3>
-        <h6 class={styles["h6"]}>Stellenbosch</h6>
-        <p class={styles["par"]}>
+        <h3 className={styles["h3"]}>Herman Kritzinger</h3>
+        <h6 className={styles["h6"]}>Stellenbosch</h6>
+        <p className={styles["par"]}>
           User interface designer and <br /> front-end developer
         </p>
-        <div class={styles["buttons"]}>
-          <button class={styles["primary"]}>
+        <div className={styles["buttons"]}>
+          <button className={styles["primary"]}>
             <span>Message</span>
           </button>
         </div>
       </div>
-      <div class={styles["about-container"]}>
-        <h3 class={styles["right-h3"]}>Hello stranger &#x1F44B;</h3>
-        <p class={styles["right-par"]}>
+      <div className={styles["about-container"]}>
+        <h3 className={styles["right-h3"]}>Hello stranger &#x1F44B;</h3>
+        <p className={styles["right-par"]}>
           I am passionate about creating digital products that enhance everyday
           experiences on the web.
         </p>
-        <div class={styles["skills"]}>
-          <h6 class={styles["skilltext"]}>Skills</h6>
+        <div className={styles["skills"]}>
+          <h6 className={styles["skilltext"]}>Skills</h6>
           <ul>
             <li>UI / UX</li>
             <li>Front End Development</li>
@@ -40,8 +38,8 @@ export default function Profile() {
             <li>Node</li>
           </ul>
         </div>
-        <div class={styles["skills"]}>
-          <h6 class={styles["skilltext"]}>Interests</h6>
+        <div className={styles["skills"]}>
+          <h6 className={styles["skilltext"]}>Interests</h6>
           <ul>
             <li>Machine Learning</li>
             <li>Cloud Computing</li>

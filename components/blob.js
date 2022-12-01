@@ -11,16 +11,17 @@ const onClick = () =>
 
 export default function Blob() {
   return (
-    <div id="top" class={styles["container"]}>
-      <h1 class={styles["title"]}>
-        creative developer & designer crafting <br></br> unique web experiences.
+    <div id="top" className={styles["container"]}>
+      <h1 className={styles["title"]}>
+        creative <div className={styles["color"]}>developer & designer</div>{" "}
+        crafting <br></br> unique web experiences.
       </h1>
-      <div onClick={onClick} class={styles["exp"]}>
+      <div onClick={onClick} className={styles["exp"]}>
         <Explore></Explore>
       </div>
-      <div class={styles["blob"]}>
-        <div class={styles["medblob"]}>
-          <div class={styles["smallblob"]}></div>
+      <div className={styles["blob"]}>
+        <div className={styles["medblob"]}>
+          <div className={styles["smallblob"]}></div>
         </div>
       </div>
     </div>

@@ -27,6 +27,7 @@
 }
 
 .title {
+  opacity: 100%;
   font-family: Mark Pro, sans-serif;
   font-size: 2.6rem;
   color: white;
@@ -34,6 +35,31 @@
   justify-content: space-around;
   text-align: center;
   margin-bottom: 13vh;
+}
+
+.color {
+  font-family: Mark Pro, sans-serif;
+  display: inline;
+  font-size: 2.6rem;
+  font-weight: 400;
+  background: linear-gradient(
+    to right,
+    rgb(133, 158, 206) 20%,
+    rgb(93, 92, 153) 40%,
+    rgb(163, 78, 149) 60%,
+    rgb(133, 158, 206) 80%
+  );
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 10s linear infinite reverse;
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
 }
 
 .btn {
@@ -54,7 +80,7 @@
   height: 700px;
   background: linear-gradient(
     180deg,
-    rgba(47, 184, 255, 0.42) 31.77%,
+    rgba(189, 47, 255, 0.42) 31.77%,
     #5c9df1 100%
   );
   mix-blend-mode: color-dodge;
@@ -70,7 +96,7 @@
   height: 200px;
   background: linear-gradient(
     180deg,
-    rgba(47, 184, 255, 0.42) 31.77%,
+    rgba(133, 209, 247, 0.42) 31.77%,
     #5c9df1 100%
   );
   mix-blend-mode: color-dodge;
@@ -86,7 +112,7 @@
   height: 400px;
   background: linear-gradient(
     180deg,
-    rgba(47, 184, 255, 0.42) 31.77%,
+    rgba(47, 255, 210, 0.42) 31.77%,
     #5c9df1 100%
   );
   mix-blend-mode: color-dodge;

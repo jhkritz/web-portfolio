@@ -2,7 +2,7 @@ import styles from "./contact.module.css";
 
 export default function Contact() {
   return (
-    <div class={styles["parent"]}>
+    <div className={styles["parent"]}>
       <div className={styles["heading"]}>
         <h1 className={styles["maintitle"]}>
           Convinced yet?
@@ -14,8 +14,8 @@ export default function Contact() {
         <h2 className={styles["subtitle"]}>
           Thanks for stopping by, I am currently looking to join a team of
           creative developers and designers. If you think I might be a good fit,
-          feel free to give me a <h2 className={styles["highlight"]}>call</h2>{" "}
-          🇿🇦 or send me an <h2 className={styles["highlight"]}>email</h2> 📧.
+          feel free to give me a <div className={styles["highlight"]}>call</div>{" "}
+          🇿🇦 or send me an <div className={styles["highlight"]}>email</div> 📧.
         </h2>
         <h1 className={styles["maintitle"]}>
           Don't be a stranger!

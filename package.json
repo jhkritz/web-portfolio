@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.5",
     "@nextui-org/react": "^1.0.0-beta.10",
     "animate.css": "^4.1.1",
     "baseui": "^12.2.0",
@@ -20,6 +21,7 @@
     "next": "latest",
     "next-transpile-modules": "^10.0.0",
     "react": "18.2.0",
+    "react-awesome-reveal": "^4.1.0",
     "react-bootstrap": "^2.6.0",
     "react-dom": "18.2.0",
     "react-helmet": "^6.1.0",
