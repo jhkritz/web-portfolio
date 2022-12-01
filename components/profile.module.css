@@ -127,6 +127,7 @@
 }
 
 .primary {
+  text-decoration: none;
   transition: all 0.5s;
   cursor: pointer;
   background-color: #03bfcb;

@@ -15,9 +15,11 @@ export default function Profile() {
           User interface designer and <br /> front-end developer
         </p>
         <div className={styles["buttons"]}>
-          <button className={styles["primary"]}>
-            <span>Message</span>
-          </button>
+          <a href="mailto:kritzinger.jh@gmail.com">
+            <button className={styles["primary"]} type="button">
+              <span>Message</span>
+            </button>
+          </a>
         </div>
       </div>
       <div className={styles["about-container"]}>

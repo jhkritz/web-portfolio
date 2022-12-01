@@ -53,6 +53,7 @@
 }
 
 .highlight {
+  text-decoration: none;
   transition: all 0.5s;
   margin: 0;
   padding: 0;
