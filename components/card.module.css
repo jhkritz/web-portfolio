@@ -276,3 +276,12 @@
   transform: scale(0.02) translateX(1050%) translateY(155%);
   padding: 0;
 }
+
+.icon2 {
+  position: relative;
+  display: inline;
+  margin: -320px -320px -315px -320px;
+  padding: 0;
+  transform: scale(0.15) translateX(60%);
+  padding: 0;
+}

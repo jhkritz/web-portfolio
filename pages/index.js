@@ -4,6 +4,7 @@ import Card from "../components/ProjectCard";
 import Profile from "../components/profile";
 import ProductCard from "../components/card";
 import Snip from "../components/codesnip";
+import Carousel from "../components/carousel";
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <Blob></Blob>
       <ProductCard></ProductCard>
       <Profile></Profile>
+      <Carousel></Carousel>
       <Snip></Snip>
     </div>
   );

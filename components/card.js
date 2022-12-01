@@ -163,6 +163,16 @@ export default function ProductCard() {
           </div>
         </div>
       </div>
+      <div className={styles["heading"]}>
+        <h1 className={styles["maintitle"]}>
+          Who am I?
+          <img
+            src="https://i.ibb.co/zxJHv7p/mic-dynamic-gradient.png"
+            className={styles["icon2"]}
+          ></img>
+        </h1>
+        <h2 className={styles["subtitle"]}>Find out more about me below.</h2>
+      </div>
     </div>
   );
 }
