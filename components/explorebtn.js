@@ -2,7 +2,7 @@ const btn = `
 <div class="wrapper">
 <input type="checkbox">
 <div class="video">
-  <video src="https://drive.google.com/uc?export=download&id=143ArU-p8QBYP4aZW1JvVLzoSQOwl4ENi" loop muted autoplay playsinline></video>
+  <video src="https://drive.google.com/uc?export=download&id=1aGVKP9qVLHP3OsYco_yDHhaXMK46AQRc" loop muted autoplay playsinline></video>
 </div>
 <div class="text">
   <span data-text="Explore"></span>
@@ -38,17 +38,18 @@ const btn = `
     transition: clip-path var(--duration) var(--timing-function);
     transition: clip-path var(--duration) var(--timing-function), -webkit-clip-path var(--duration) var(--timing-function);
   }
+
   .wrapper .video video {
-    position: fixed;
-   
+    position: absolute;
     top: 50%;
-    left: 50%;
+    left: 70%;
     min-width: 100%;
     min-height: 100%;
     width: auto;
     height: auto;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) scale(0.15, 0.15);
   }
+
   .wrapper .text {
     position: relative;
     text-transform: uppercase;
