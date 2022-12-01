@@ -1,10 +1,9 @@
 import * as React from "react";
 import Blob from "../components/blob";
-import Card from "../components/ProjectCard";
 import Profile from "../components/profile";
 import ProductCard from "../components/card";
-import Snip from "../components/codesnip";
 import Carousel from "../components/carousel";
+import Contact from "../components/contact";
 
 export default function App() {
   return (
@@ -13,7 +12,7 @@ export default function App() {
       <ProductCard></ProductCard>
       <Profile></Profile>
       <Carousel></Carousel>
-      <Snip></Snip>
+      <Contact></Contact>
     </div>
   );
 }

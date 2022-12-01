@@ -1,7 +1,7 @@
 .parent {
   align-items: center;
   display: flex;
-  height: 40vh;
+  height: 35vh;
   justify-content: center;
   width: 100vw;
   padding: 0;
@@ -45,6 +45,7 @@
 
 .slide:not(:hover) {
   transition: all 0.5s;
+  opacity: 90%;
 }
 
 .slider .slide-track {
@@ -162,6 +163,7 @@
 
 .slide2:not(:hover) {
   transition: all 0.5s;
+  opacity: 90%;
 }
 
 .slider2 .slide-track2 {
