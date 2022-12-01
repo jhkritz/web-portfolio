@@ -2,12 +2,18 @@ import styles from "./blob.module.css";
 import ReactDOM from "react-dom";
 import Explore from "./explorebtn";
 
-const onClick = () =>
+const getHeight = () => {
+  let x = document.getElementById("top").scrollHeight;
+  return x - 210;
+};
+
+const onClick = () => {
   window.scrollTo({
     left: 0,
-    top: document.getElementById("top").scrollHeight,
+    top: getHeight(),
     behavior: "smooth",
   });
+};
 
 export default function Blob() {
   return (
