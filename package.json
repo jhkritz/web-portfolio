@@ -9,6 +9,7 @@
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@nextui-org/react": "^1.0.0-beta.10",
+    "@vercel/analytics": "^0.1.5",
     "animate.css": "^4.1.1",
     "baseui": "^12.2.0",
     "bootstrap": "^5.2.3",
