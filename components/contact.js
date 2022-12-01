@@ -52,7 +52,7 @@ export default function Contact() {
           </a>
           <a
             className={styles["footer2"]}
-            href="https://drive.google.com/uc?export=download&id=1cY1BrqYWiAyL-OqoOqNO0gQsw-bBPEgg"
+            href="https://drive.google.com/uc?export=download&id=1EGHeZD7-NLK_QGW-m0-yG6bKeoX3Tmez"
             target="_blank"
           >
             📰RESUME
