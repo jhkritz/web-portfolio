@@ -10,71 +10,140 @@
   margin-bottom: 10vh;
 }
 
-.card {
-  width: 400px;
-  min-height: 250px;
-  background: rgba(255, 255, 255, 0.15);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(18px);
-  -webkit-backdrop-filter: blur(18px);
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  border-radius: 1rem;
-  padding: 1.5rem;
-  z-index: 10;
-  color: whitesmoke;
-  margin-bottom: 10vh;
-}
+@media (max-width: 800px) {
+  .card {
+    width: 100%;
+    min-height: 40%;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    z-index: 10;
+    color: whitesmoke;
+    margin-bottom: 10vh;
+  }
 
-.title {
-  opacity: 100%;
-  font-family: Mark Pro, sans-serif;
-  font-size: 2.6rem;
-  color: white;
-  align-items: center;
-  justify-content: space-around;
-  text-align: center;
-  margin-top: 20vh;
-  margin-bottom: 0vh;
-}
+  .title {
+    opacity: 100%;
+    font-family: Mark Pro, sans-serif;
+    font-size: 1.6rem;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 20vh;
+    margin-bottom: 0vh;
+  }
 
-.color {
-  font-family: Mark Pro, sans-serif;
-  display: inline;
-  font-size: 2.6rem;
-  font-weight: 400;
-  background: linear-gradient(
-    to right,
-    rgb(133, 158, 206) 20%,
-    rgb(93, 92, 153) 40%,
-    rgb(163, 78, 149) 60%,
-    rgb(133, 158, 206) 80%
-  );
-  background-size: 200% auto;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: shine 10s linear infinite reverse;
-}
+  .color {
+    font-family: Mark Pro, sans-serif;
+    display: inline;
+    font-size: 1.6rem;
+    font-weight: 400;
+    background: linear-gradient(
+      to right,
+      rgb(133, 158, 206) 20%,
+      rgb(93, 92, 153) 40%,
+      rgb(163, 78, 149) 60%,
+      rgb(133, 158, 206) 80%
+    );
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 10s linear infinite reverse;
+  }
 
-@keyframes shine {
-  to {
-    background-position: 200% center;
+  @keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }
+
+  .btn {
+    background: none;
+    border: none;
+    text-align: center;
+    font-size: 0.5rem;
+    color: whitesmoke;
+    background-color: #fa709a;
+    border-radius: 2rem;
+    cursor: pointer;
+  }
+
+  .exp {
+    display: none;
   }
 }
 
-.btn {
-  background: none;
-  border: none;
-  text-align: center;
-  font-size: 1rem;
-  color: whitesmoke;
-  background-color: #fa709a;
-  padding: 0.8rem 1.8rem;
-  border-radius: 2rem;
-  cursor: pointer;
-}
+@media (min-width: 801px) {
+  .card {
+    width: 400px;
+    min-height: 250px;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    z-index: 10;
+    color: whitesmoke;
+    margin-bottom: 10vh;
+  }
 
-@media (min-width: 800px) {
+  .title {
+    opacity: 100%;
+    font-family: Mark Pro, sans-serif;
+    font-size: 2.6rem;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 20vh;
+    margin-bottom: 0vh;
+  }
+
+  .color {
+    font-family: Mark Pro, sans-serif;
+    display: inline;
+    font-size: 2.6rem;
+    font-weight: 400;
+    background: linear-gradient(
+      to right,
+      rgb(133, 158, 206) 20%,
+      rgb(93, 92, 153) 40%,
+      rgb(163, 78, 149) 60%,
+      rgb(133, 158, 206) 80%
+    );
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 10s linear infinite reverse;
+  }
+
+  @keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }
+
+  .btn {
+    background: none;
+    border: none;
+    text-align: center;
+    font-size: 1rem;
+    color: whitesmoke;
+    background-color: #fa709a;
+    padding: 0.8rem 1.8rem;
+    border-radius: 2rem;
+    cursor: pointer;
+  }
+
   .blob {
     position: absolute;
     width: 700px;
@@ -132,33 +201,33 @@
       inset 100px 100px 0 0px #fa709a, inset 200px 200px 0 0px #784ba8,
       inset 300px 300px 0 0px #2b86c5;
   }
-}
 
-.exp {
-  position: absolute;
-  margin-top: 50vh;
-}
-
-@-webkit-keyframes move {
-  from {
-    transform: translate(-100px, -50px) rotate(-90deg);
-    border-radius: 24% 76% 35% 65% / 27% 36% 64% 73%;
+  .exp {
+    position: absolute;
+    margin-top: 50vh;
   }
 
-  to {
-    transform: translate(500px, 100px) rotate(-10deg);
-    border-radius: 76% 24% 33% 67% / 68% 55% 45% 32%;
-  }
-}
+  @-webkit-keyframes move {
+    from {
+      transform: translate(-100px, -50px) rotate(-90deg);
+      border-radius: 24% 76% 35% 65% / 27% 36% 64% 73%;
+    }
 
-@keyframes move {
-  from {
-    transform: translate(-100px, -50px) rotate(-90deg);
-    border-radius: 24% 76% 35% 65% / 27% 36% 64% 73%;
+    to {
+      transform: translate(500px, 100px) rotate(-10deg);
+      border-radius: 76% 24% 33% 67% / 68% 55% 45% 32%;
+    }
   }
 
-  to {
-    transform: translate(500px, 100px) rotate(-10deg);
-    border-radius: 76% 24% 33% 67% / 68% 55% 45% 32%;
+  @keyframes move {
+    from {
+      transform: translate(-100px, -50px) rotate(-90deg);
+      border-radius: 24% 76% 35% 65% / 27% 36% 64% 73%;
+    }
+
+    to {
+      transform: translate(500px, 100px) rotate(-10deg);
+      border-radius: 76% 24% 33% 67% / 68% 55% 45% 32%;
+    }
   }
 }

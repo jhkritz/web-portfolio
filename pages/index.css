@@ -16,6 +16,7 @@
 }
 
 html {
+  min-width: 100%;
   scrollbar-width: none;
   cursor: url("https://i.ibb.co/ZNZKKqN/cursor-png-32.png"), copy;
 }

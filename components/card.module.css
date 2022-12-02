@@ -8,9 +8,19 @@
 }
 
 @media (max-width: 800px) {
+  .parent {
+    margin: auto;
+    width: 85%;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 60px;
+    position: relative;
+    padding-right: 3%;
+  }
+
   .card-container {
     transition: all 0.5s;
-    width: 380px;
+    width: 320px;
     height: 620px;
     background-color: #231e39be;
     box-shadow: 0px 10px 20px -10px rgba(233, 226, 226, 0.089);
@@ -33,7 +43,7 @@
 
   .card-container:not(:hover) {
     transition: all 0.5s;
-    width: 380px;
+    width: 320px;
     height: 620px;
     background-color: #231e39be;
     box-shadow: 0px 10px 20px -10px rgba(233, 226, 226, 0.089);
@@ -68,7 +78,7 @@
 
   .image {
     margin: auto;
-    width: 20em;
+    width: 16em;
     height: 23em;
     overflow: hidden;
     border-radius: 32px;
@@ -77,7 +87,7 @@
 
   .image2 {
     margin: auto;
-    width: 20em;
+    width: 16em;
     height: 23em;
     overflow: hidden;
     border-radius: 32px;
@@ -86,7 +96,7 @@
 
   .image3 {
     margin: auto;
-    width: 20em;
+    width: 16em;
     height: 23em;
     overflow: hidden;
     border-radius: 32px;
@@ -123,10 +133,10 @@
 
   .maintitle {
     font-family: Mark Pro, sans-serif;
-    font-size: 1.9rem;
+    font-size: 1.6rem;
     color: white;
     margin-bottom: 10px;
-    margin-right: 20px;
+    margin-right: 10px;
   }
 
   .subtitle {
@@ -134,6 +144,7 @@
     font-size: 0.8rem;
     color: rgb(145, 136, 136);
     margin-bottom: 60px;
+    text-align: center;
   }
 
   .subtitle2 {
@@ -167,13 +178,13 @@
   .right-text {
     margin: 0;
     padding: 0;
-    transform: translateY(-50%);
+    transform: translateY(-50%) translateX(-1%);
   }
 
   .right-text2 {
     margin: 0;
     padding: 0;
-    transform: translateY(-20%);
+    transform: translateY(-20%) translateX(-1%);
   }
 }
 
