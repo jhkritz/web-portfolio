@@ -13,7 +13,7 @@ export default function ProductCard() {
               src="https://i.ibb.co/0Qw4Mbq/folder-dynamic-gradient.png"
               width={70}
               height={70}
-              quality={30}
+              quality={70}
               className={styles["icon"]}
             />
           </h1>
@@ -219,7 +219,7 @@ export default function ProductCard() {
             src="https://i.ibb.co/zxJHv7p/mic-dynamic-gradient.png"
             width={70}
             height={70}
-            quality={30}
+            quality={70}
             className={styles["icon"]}
           />
         </h1>

@@ -12,7 +12,7 @@ export default function Contact() {
             className={styles["icon"]}
             width={70}
             height={70}
-            quality={30}
+            quality={70}
           />
         </h1>
         <h2 className={styles["subtitle"]}>
@@ -38,7 +38,7 @@ export default function Contact() {
             className={styles["icon"]}
             width={70}
             height={70}
-            quality={30}
+            quality={70}
           />
         </h1>
         <h2 className={styles["footer"]}>Connect with me online</h2>
