@@ -11,6 +11,7 @@ export default function Carousel() {
             src={"https://i.ibb.co/RPj22r0/notebook-dynamic-gradient.png"}
             width={70}
             height={70}
+            quality={30}
             className={styles["icon"]}
           />
         </h1>
