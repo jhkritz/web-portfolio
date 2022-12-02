@@ -1,8 +1,46 @@
-import React, { useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import styles from "./card.module.css";
 import Image from "next/image";
+import hoverEffect from "./hover-effect.umd.js";
 
 export default function ProductCard() {
+  const container = useRef();
+
+  useEffect(() => {
+    console.log(container.current);
+
+    new hoverEffect({
+      parent: document.getElementById("imagebox"),
+      intensity: 0.5,
+      imagesRatio: 1080 / 1920,
+      image1: "https://i.ibb.co/cgn7HnV/blobwallpaper.jpg",
+      image2: "https://i.ibb.co/CV0GpcP/react2.png",
+      displacementImage:
+        "https://raw.githubusercontent.com/robin-dela/hover-effect/master/images/fluid.jpg",
+    });
+
+    new hoverEffect({
+      parent: document.getElementById("imagebox2"),
+      intensity: 0.5,
+      imagesRatio: 1080 / 1920,
+      image1: "https://i.ibb.co/42YVnxV/My-project-1-3.png",
+      image2: "https://i.ibb.co/GH3sVTy/vuecardnew.png",
+      displacementImage:
+        "https://raw.githubusercontent.com/robin-dela/hover-effect/master/images/fluid.jpg",
+    });
+
+    new hoverEffect({
+      parent: document.getElementById("imagebox3"),
+      intensity: 0.5,
+      imagesRatio: 1080 / 1920,
+      image1:
+        "https://i.ibb.co/WHvmQ3Z/Tiny-doggies-in-an-ultrawide-painting.jpg",
+      image2: "https://i.ibb.co/WVZBCCb/stability.png",
+      displacementImage:
+        "https://raw.githubusercontent.com/robin-dela/hover-effect/master/images/fluid.jpg",
+    });
+  }, [container]);
+
   return (
     <div>
       <div className={styles["parent"]}>
@@ -88,7 +126,7 @@ export default function ProductCard() {
           <div className={styles["left-text2"]}>
             <p>HTML,&nbsp; VUE,&nbsp; PYTHON</p>
           </div>
-          <div id="imagebox" className={styles["image2"]}></div>
+          <div id="imagebox2" className={styles["image2"]}></div>
           <div className={styles["right-text2"]}>
             <h1 className={styles["title"]}>
               Sign <br />
@@ -156,7 +194,7 @@ export default function ProductCard() {
           <div className={styles["left-text3"]}>
             <p>FLUTTER,&nbsp; DART,&nbsp; LEXICA</p>
           </div>
-          <div id="imagebox" className={styles["image3"]}></div>
+          <div id="imagebox3" className={styles["image3"]}></div>
           <div className={styles["right-text2"]}>
             <h1 className={styles["title"]}>
               AI generated <br /> image search

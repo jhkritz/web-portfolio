@@ -26,6 +26,7 @@ export default function App() {
 
   return (
     <div class="parent">
+      <link rel="preconnect" href="https://i.bb.co"></link>
       <div class="loading" id="loading">
         <div class="container">
           <div class="liquid"></div>
