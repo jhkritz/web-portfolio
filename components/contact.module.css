@@ -83,3 +83,24 @@
   text-decoration: none;
   letter-spacing: 3px;
 }
+
+@media (max-width: 800px) {
+  .footer {
+    width: 90%;
+    font-family: Mark Pro, sans-serif;
+    font-size: 0.9rem;
+    color: rgb(145, 136, 136);
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+  }
+
+  .footer2 {
+    width: 90%;
+    font-family: Mark Pro, sans-serif;
+    font-size: 0.8rem;
+    color: rgb(145, 136, 136);
+    margin-bottom: 60px;
+    text-decoration: none;
+    letter-spacing: 3px;
+  }
+}

@@ -8,290 +8,583 @@
   margin: 0;
 }
 
-.slider {
-  background: transparent;
-  height: 250px;
-  margin: auto;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-}
-
-.slider::before,
-.slider::after {
-  content: "";
-  height: 100%;
-  position: absolute;
-  width: 100px;
-  z-index: 2;
-}
-
-.slider::after {
-  right: 0;
-  top: 0;
-  -webkit-transform: rotateZ(180deg);
-  transform: rotateZ(180deg);
-}
-
-.slider::before {
-  left: 0;
-  top: 0;
-}
-
-.slide:hover {
-  transition: all 0.5s;
-  transform: scale(0.95);
-}
-
-.slide:not(:hover) {
-  transition: all 0.5s;
-  opacity: 90%;
-}
-
-.slider .slide-track {
-  animation: scroll 80s linear infinite;
-  display: flex;
-  width: calc(250px * 18);
-}
-
-.slider .slide-track:hover {
-  animation-play-state: paused;
-}
-
-.slider .slide {
-  border-radius: 16px;
-  margin: 0px 0px 0px 80px;
-  height: 240px;
-  width: 200px;
-}
-
-.slide:nth-child(1),
-.slide:nth-child(10) {
-  background-image: url(https://i.ibb.co/s9nQTwP/Daft-Punk-png-1024x.jpg);
-  background-size: contain;
-  background-position: center;
-}
-
-.slide:nth-child(2),
-.slide:nth-child(11) {
-  background-image: url(https://i.ibb.co/MfvjJkp/JCOLE-png-1024x.jpg);
-  background-size: 180px 250px;
-  background-position: center;
-}
-
-.slide:nth-child(3),
-.slide:nth-child(12) {
-  background-image: url(https://i.ibb.co/CnJYhdH/Fire-Squad-png-1024x.jpg);
-  background-size: 180px 250px;
-  background-position: center;
-}
-
-.slide:nth-child(4),
-.slide:nth-child(13) {
-  background-image: url(https://i.ibb.co/x3Nx4hg/Mac-Miller-Ciggiebox-png-1024x.jpg);
-  background-size: contain;
-  background-position: center;
-}
-.slide:nth-child(5),
-.slide:nth-child(14) {
-  background-image: url(https://i.ibb.co/HHNM9J4/Rap-Evolution-Border-png-1024x.jpg);
-  background-size: 180px 250px;
-  background-position: center;
-}
-.slide:nth-child(6),
-.slide:nth-child(15) {
-  background-image: url(https://i.ibb.co/fngXzrg/Portrait-Smoke-png-1024x.jpg);
-  background-size: contain;
-  background-position: center;
-}
-
-.slide:nth-child(7),
-.slide:nth-child(16) {
-  background-image: url(https://i.ibb.co/DKPJ1Xz/travisscott-png-1024x.jpg);
-  background-size: contain;
-  background-position: center;
-}
-
-.slide:nth-child(8),
-.slide:nth-child(17) {
-  background-image: url(https://i.ibb.co/R9Mkk3f/Self-Portrait-png-1024x.jpg);
-  background-size: contain;
-  background-position: center;
-}
-
-.slide:nth-child(9),
-.slide:nth-child(18) {
-  background-image: url(https://i.ibb.co/23rc1xQ/Skate-Red-png-1024x.jpg);
-  background-size: contain;
-  background-position: center;
-}
-
-.slider2 {
-  background: transparent;
-  height: 250px;
-  margin: auto;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-}
-
-.slider2::before,
-.slider2::after {
-  content: "";
-  height: 100%;
-  position: absolute;
-  width: 100px;
-  z-index: 2;
-}
-
-.slider2::after {
-  right: 0;
-  top: 0;
-  -webkit-transform: rotateZ(180deg);
-  transform: rotateZ(180deg);
-}
-
-.slider2::before {
-  left: 0;
-  top: 0;
-}
-
-.slide2:hover {
-  transition: all 0.5s;
-  transform: scale(0.95);
-}
-
-.slide2:not(:hover) {
-  transition: all 0.5s;
-  opacity: 90%;
-}
-
-.slider2 .slide-track2 {
-  animation: scroll 80s linear infinite reverse;
-  display: flex;
-  width: calc(250px * 18);
-}
-
-.slider2 .slide-track2:hover {
-  animation-play-state: paused;
-}
-
-.slider2 .slide2 {
-  border-radius: 16px;
-  margin: 0px 0px 0px 80px;
-  height: 250px;
-  width: 200px;
-}
-
-.slide2:nth-child(1),
-.slide2:nth-child(10) {
-  background-image: url(https://i.ibb.co/wNgZCh5/Facelines-png-1024x.jpg);
-  background-size: contain;
-  background-position: center;
-}
-
-.slide2:nth-child(2),
-.slide2:nth-child(11) {
-  background-image: url(https://i.ibb.co/209cGfZ/Face-png-1024x.jpg);
-  background-size: contain;
-  background-position: center;
-}
-
-.slide2:nth-child(3),
-.slide2:nth-child(12) {
-  background-image: url(https://i.ibb.co/7KWtKrG/Dot-Whale-png-1024x.jpg);
-  background-size: contain;
-  background-position: center;
-}
-
-.slide2:nth-child(4),
-.slide2:nth-child(13) {
-  background-image: url(https://i.ibb.co/Jy86J1z/Jupiter-Spear-png-1024x.jpg);
-  background-size: contain;
-  background-position: center;
-}
-.slide2:nth-child(5),
-.slide2:nth-child(14) {
-  background-image: url(https://i.ibb.co/XD2pGzQ/Pharoah-png-1024x.jpg);
-  background-size: contain;
-  background-position: center;
-}
-
-.slide2:nth-child(6),
-.slide2:nth-child(15) {
-  background-image: url(https://i.ibb.co/YjxqNWf/Tattoo-Mockup3-png-1024x.jpg);
-  background-size: contain;
-  background-position: center;
-}
-
-.slide2:nth-child(7),
-.slide2:nth-child(16) {
-  background-image: url(https://i.ibb.co/XD7x2qb/Pilar-Hand-v2-png-1024x.jpg);
-  background-size: contain;
-  background-position: center;
-}
-
-.slide2:nth-child(8),
-.slide2:nth-child(17) {
-  background-image: url(https://i.ibb.co/87nynyJ/Skull-Statue-png-1024x.jpg);
-  background-size: contain;
-  background-position: center;
-}
-
-.slide2:nth-child(9),
-.slide2:nth-child(18) {
-  background-image: url(https://i.ibb.co/ZXNZ47M/Science-Occult-png-1024x.jpg);
-  background-size: contain;
-  background-position: center;
-}
-
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
+@media (min-width: 800px) {
+  .slider {
+    background: transparent;
+    height: 250px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
   }
-  100% {
-    transform: translateX(calc(-250px * 9));
+
+  .slider::before,
+  .slider::after {
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 100px;
+    z-index: 2;
+  }
+
+  .slider::after {
+    right: 0;
+    top: 0;
+    -webkit-transform: rotateZ(180deg);
+    transform: rotateZ(180deg);
+  }
+
+  .slider::before {
+    left: 0;
+    top: 0;
+  }
+
+  .slide:hover {
+    transition: all 0.5s;
+    transform: scale(0.95);
+  }
+
+  .slide:not(:hover) {
+    transition: all 0.5s;
+    opacity: 90%;
+  }
+
+  .slider .slide-track {
+    animation: scroll 80s linear infinite;
+    display: flex;
+    width: calc(250px * 18);
+  }
+
+  .slider .slide-track:hover {
+    animation-play-state: paused;
+  }
+
+  .slider .slide {
+    border-radius: 16px;
+    margin: 0px 0px 0px 80px;
+    height: 240px;
+    width: 200px;
+  }
+
+  .slide:nth-child(1),
+  .slide:nth-child(10) {
+    background-image: url(https://i.ibb.co/s9nQTwP/Daft-Punk-png-1024x.jpg);
+    background-size: contain;
+    background-position: center;
+  }
+
+  .slide:nth-child(2),
+  .slide:nth-child(11) {
+    background-image: url(https://i.ibb.co/MfvjJkp/JCOLE-png-1024x.jpg);
+    background-size: 180px 250px;
+    background-position: center;
+  }
+
+  .slide:nth-child(3),
+  .slide:nth-child(12) {
+    background-image: url(https://i.ibb.co/CnJYhdH/Fire-Squad-png-1024x.jpg);
+    background-size: 180px 250px;
+    background-position: center;
+  }
+
+  .slide:nth-child(4),
+  .slide:nth-child(13) {
+    background-image: url(https://i.ibb.co/x3Nx4hg/Mac-Miller-Ciggiebox-png-1024x.jpg);
+    background-size: contain;
+    background-position: center;
+  }
+  .slide:nth-child(5),
+  .slide:nth-child(14) {
+    background-image: url(https://i.ibb.co/HHNM9J4/Rap-Evolution-Border-png-1024x.jpg);
+    background-size: 180px 250px;
+    background-position: center;
+  }
+  .slide:nth-child(6),
+  .slide:nth-child(15) {
+    background-image: url(https://i.ibb.co/fngXzrg/Portrait-Smoke-png-1024x.jpg);
+    background-size: contain;
+    background-position: center;
+  }
+
+  .slide:nth-child(7),
+  .slide:nth-child(16) {
+    background-image: url(https://i.ibb.co/DKPJ1Xz/travisscott-png-1024x.jpg);
+    background-size: contain;
+    background-position: center;
+  }
+
+  .slide:nth-child(8),
+  .slide:nth-child(17) {
+    background-image: url(https://i.ibb.co/R9Mkk3f/Self-Portrait-png-1024x.jpg);
+    background-size: contain;
+    background-position: center;
+  }
+
+  .slide:nth-child(9),
+  .slide:nth-child(18) {
+    background-image: url(https://i.ibb.co/23rc1xQ/Skate-Red-png-1024x.jpg);
+    background-size: contain;
+    background-position: center;
+  }
+
+  .slider2 {
+    background: transparent;
+    height: 250px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+
+  .slider2::before,
+  .slider2::after {
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 100px;
+    z-index: 2;
+  }
+
+  .slider2::after {
+    right: 0;
+    top: 0;
+    -webkit-transform: rotateZ(180deg);
+    transform: rotateZ(180deg);
+  }
+
+  .slider2::before {
+    left: 0;
+    top: 0;
+  }
+
+  .slide2:hover {
+    transition: all 0.5s;
+    transform: scale(0.95);
+  }
+
+  .slide2:not(:hover) {
+    transition: all 0.5s;
+    opacity: 90%;
+  }
+
+  .slider2 .slide-track2 {
+    animation: scroll 80s linear infinite reverse;
+    display: flex;
+    width: calc(250px * 18);
+  }
+
+  .slider2 .slide-track2:hover {
+    animation-play-state: paused;
+  }
+
+  .slider2 .slide2 {
+    border-radius: 16px;
+    margin: 0px 0px 0px 80px;
+    height: 250px;
+    width: 200px;
+  }
+
+  .slide2:nth-child(1),
+  .slide2:nth-child(10) {
+    background-image: url(https://i.ibb.co/wNgZCh5/Facelines-png-1024x.jpg);
+    background-size: contain;
+    background-position: center;
+  }
+
+  .slide2:nth-child(2),
+  .slide2:nth-child(11) {
+    background-image: url(https://i.ibb.co/209cGfZ/Face-png-1024x.jpg);
+    background-size: contain;
+    background-position: center;
+  }
+
+  .slide2:nth-child(3),
+  .slide2:nth-child(12) {
+    background-image: url(https://i.ibb.co/7KWtKrG/Dot-Whale-png-1024x.jpg);
+    background-size: contain;
+    background-position: center;
+  }
+
+  .slide2:nth-child(4),
+  .slide2:nth-child(13) {
+    background-image: url(https://i.ibb.co/Jy86J1z/Jupiter-Spear-png-1024x.jpg);
+    background-size: contain;
+    background-position: center;
+  }
+  .slide2:nth-child(5),
+  .slide2:nth-child(14) {
+    background-image: url(https://i.ibb.co/XD2pGzQ/Pharoah-png-1024x.jpg);
+    background-size: contain;
+    background-position: center;
+  }
+
+  .slide2:nth-child(6),
+  .slide2:nth-child(15) {
+    background-image: url(https://i.ibb.co/YjxqNWf/Tattoo-Mockup3-png-1024x.jpg);
+    background-size: contain;
+    background-position: center;
+  }
+
+  .slide2:nth-child(7),
+  .slide2:nth-child(16) {
+    background-image: url(https://i.ibb.co/XD7x2qb/Pilar-Hand-v2-png-1024x.jpg);
+    background-size: contain;
+    background-position: center;
+  }
+
+  .slide2:nth-child(8),
+  .slide2:nth-child(17) {
+    background-image: url(https://i.ibb.co/87nynyJ/Skull-Statue-png-1024x.jpg);
+    background-size: contain;
+    background-position: center;
+  }
+
+  .slide2:nth-child(9),
+  .slide2:nth-child(18) {
+    background-image: url(https://i.ibb.co/ZXNZ47M/Science-Occult-png-1024x.jpg);
+    background-size: contain;
+    background-position: center;
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-250px * 9));
+    }
+  }
+
+  .heading {
+    margin: auto;
+    width: 85%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-family: Mark Pro, sans-serif;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+
+  .maintitle {
+    font-family: Mark Pro, sans-serif;
+    font-size: 2.6rem;
+    color: white;
+    margin-bottom: 10px;
+    padding-right: 6px;
+  }
+
+  .subtitle {
+    font-family: Mark Pro, sans-serif;
+    font-size: 0.8rem;
+    color: rgb(145, 136, 136);
+    margin-bottom: 60px;
+    padding-left: 6px;
+  }
+
+  .icon {
+    display: inline;
+    padding-left: 10px;
+    transform: translateY(25%);
+  }
+
+  .icon2 {
+    display: inline-flex;
+    margin: -1200px -1200px -1200px -1200px;
+    padding: 0;
+    transform: scale(0.03) translateX(60%) translateY(-15%);
+    padding: 0;
   }
 }
 
-.heading {
-  margin: auto;
-  width: 85%;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  font-family: Mark Pro, sans-serif;
-  margin: 0 auto;
-  padding-top: 20px;
-}
+@media (max-width: 801px) {
+  .slider {
+    background: transparent;
+    height: 250px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
 
-.maintitle {
-  font-family: Mark Pro, sans-serif;
-  font-size: 2.6rem;
-  color: white;
-  margin-bottom: 10px;
-  padding-right: 6px;
-}
+  .slider::before,
+  .slider::after {
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 100px;
+    z-index: 2;
+  }
 
-.subtitle {
-  font-family: Mark Pro, sans-serif;
-  font-size: 0.8rem;
-  color: rgb(145, 136, 136);
-  margin-bottom: 60px;
-  padding-left: 6px;
-}
+  .slider::after {
+    right: 0;
+    top: 0;
+    -webkit-transform: rotateZ(180deg);
+    transform: rotateZ(180deg);
+  }
 
-.icon {
-  display: inline;
-  padding-left: 10px;
-  transform: translateY(25%);
-}
+  .slider::before {
+    left: 0;
+    top: 0;
+  }
 
-.icon2 {
-  display: inline-flex;
-  margin: -1200px -1200px -1200px -1200px;
-  padding: 0;
-  transform: scale(0.03) translateX(60%) translateY(-15%);
-  padding: 0;
+  .slide:hover {
+    transition: all 0.5s;
+    transform: scale(0.95);
+  }
+
+  .slide:not(:hover) {
+    transition: all 0.5s;
+    opacity: 90%;
+  }
+
+  .slider .slide-track {
+    animation: scroll 80s linear infinite;
+    display: flex;
+    width: calc(250px * 18);
+  }
+
+  .slider .slide-track:hover {
+    animation-play-state: paused;
+  }
+
+  .slider .slide {
+    border-radius: 16px;
+    margin: 0px 0px 0px 80px;
+    height: 240px;
+    width: 200px;
+  }
+
+  .slide:nth-child(1),
+  .slide:nth-child(10) {
+    background-image: url(https://i.ibb.co/s9nQTwP/Daft-Punk-png-1024x.jpg);
+    background-size: contain;
+    background-position: center;
+  }
+
+  .slide:nth-child(2),
+  .slide:nth-child(11) {
+    background-image: url(https://i.ibb.co/MfvjJkp/JCOLE-png-1024x.jpg);
+    background-size: 180px 250px;
+    background-position: center;
+  }
+
+  .slide:nth-child(3),
+  .slide:nth-child(12) {
+    background-image: url(https://i.ibb.co/CnJYhdH/Fire-Squad-png-1024x.jpg);
+    background-size: 180px 250px;
+    background-position: center;
+  }
+
+  .slide:nth-child(4),
+  .slide:nth-child(13) {
+    background-image: url(https://i.ibb.co/x3Nx4hg/Mac-Miller-Ciggiebox-png-1024x.jpg);
+    background-size: contain;
+    background-position: center;
+  }
+  .slide:nth-child(5),
+  .slide:nth-child(14) {
+    background-image: url(https://i.ibb.co/HHNM9J4/Rap-Evolution-Border-png-1024x.jpg);
+    background-size: 180px 250px;
+    background-position: center;
+  }
+  .slide:nth-child(6),
+  .slide:nth-child(15) {
+    background-image: url(https://i.ibb.co/fngXzrg/Portrait-Smoke-png-1024x.jpg);
+    background-size: contain;
+    background-position: center;
+  }
+
+  .slide:nth-child(7),
+  .slide:nth-child(16) {
+    background-image: url(https://i.ibb.co/DKPJ1Xz/travisscott-png-1024x.jpg);
+    background-size: contain;
+    background-position: center;
+  }
+
+  .slide:nth-child(8),
+  .slide:nth-child(17) {
+    background-image: url(https://i.ibb.co/R9Mkk3f/Self-Portrait-png-1024x.jpg);
+    background-size: contain;
+    background-position: center;
+  }
+
+  .slide:nth-child(9),
+  .slide:nth-child(18) {
+    background-image: url(https://i.ibb.co/23rc1xQ/Skate-Red-png-1024x.jpg);
+    background-size: contain;
+    background-position: center;
+  }
+
+  .slider2 {
+    background: transparent;
+    height: 250px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+
+  .slider2::before,
+  .slider2::after {
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 100px;
+    z-index: 2;
+  }
+
+  .slider2::after {
+    right: 0;
+    top: 0;
+    -webkit-transform: rotateZ(180deg);
+    transform: rotateZ(180deg);
+  }
+
+  .slider2::before {
+    left: 0;
+    top: 0;
+  }
+
+  .slide2:hover {
+    transition: all 0.5s;
+    transform: scale(0.95);
+  }
+
+  .slide2:not(:hover) {
+    transition: all 0.5s;
+    opacity: 90%;
+  }
+
+  .slider2 .slide-track2 {
+    animation: scroll 80s linear infinite reverse;
+    display: flex;
+    width: calc(250px * 18);
+  }
+
+  .slider2 .slide-track2:hover {
+    animation-play-state: paused;
+  }
+
+  .slider2 .slide2 {
+    border-radius: 16px;
+    margin: 0px 0px 0px 80px;
+    height: 250px;
+    width: 200px;
+  }
+
+  .slide2:nth-child(1),
+  .slide2:nth-child(10) {
+    background-image: url(https://i.ibb.co/wNgZCh5/Facelines-png-1024x.jpg);
+    background-size: contain;
+    background-position: center;
+  }
+
+  .slide2:nth-child(2),
+  .slide2:nth-child(11) {
+    background-image: url(https://i.ibb.co/209cGfZ/Face-png-1024x.jpg);
+    background-size: contain;
+    background-position: center;
+  }
+
+  .slide2:nth-child(3),
+  .slide2:nth-child(12) {
+    background-image: url(https://i.ibb.co/7KWtKrG/Dot-Whale-png-1024x.jpg);
+    background-size: contain;
+    background-position: center;
+  }
+
+  .slide2:nth-child(4),
+  .slide2:nth-child(13) {
+    background-image: url(https://i.ibb.co/Jy86J1z/Jupiter-Spear-png-1024x.jpg);
+    background-size: contain;
+    background-position: center;
+  }
+  .slide2:nth-child(5),
+  .slide2:nth-child(14) {
+    background-image: url(https://i.ibb.co/XD2pGzQ/Pharoah-png-1024x.jpg);
+    background-size: contain;
+    background-position: center;
+  }
+
+  .slide2:nth-child(6),
+  .slide2:nth-child(15) {
+    background-image: url(https://i.ibb.co/YjxqNWf/Tattoo-Mockup3-png-1024x.jpg);
+    background-size: contain;
+    background-position: center;
+  }
+
+  .slide2:nth-child(7),
+  .slide2:nth-child(16) {
+    background-image: url(https://i.ibb.co/XD7x2qb/Pilar-Hand-v2-png-1024x.jpg);
+    background-size: contain;
+    background-position: center;
+  }
+
+  .slide2:nth-child(8),
+  .slide2:nth-child(17) {
+    background-image: url(https://i.ibb.co/87nynyJ/Skull-Statue-png-1024x.jpg);
+    background-size: contain;
+    background-position: center;
+  }
+
+  .slide2:nth-child(9),
+  .slide2:nth-child(18) {
+    background-image: url(https://i.ibb.co/ZXNZ47M/Science-Occult-png-1024x.jpg);
+    background-size: contain;
+    background-position: center;
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-250px * 9));
+    }
+  }
+
+  .heading {
+    margin: auto;
+    width: 85%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-family: Mark Pro, sans-serif;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+
+  .maintitle {
+    font-family: Mark Pro, sans-serif;
+    text-align: center;
+    font-size: 1.6rem;
+    color: white;
+    margin-bottom: 10px;
+    padding-right: 6px;
+  }
+
+  .subtitle {
+    font-family: Mark Pro, sans-serif;
+    font-size: 0.8rem;
+    color: rgb(145, 136, 136);
+    margin-bottom: 60px;
+    padding-left: 6px;
+  }
+
+  .icon {
+    display: none;
+    padding-left: 10px;
+    transform: translateY(25%);
+  }
+
+  .icon2 {
+    display: inline-flex;
+    margin: -1200px -1200px -1200px -1200px;
+    padding: 0;
+    transform: scale(0.03) translateX(60%) translateY(-15%);
+    padding: 0;
+  }
 }
