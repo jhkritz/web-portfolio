@@ -281,7 +281,6 @@
   font-size: 2.6rem;
   color: white;
   margin-bottom: 10px;
-  padding-right: 6px;
 }
 
 .subtitle {
@@ -289,22 +288,18 @@
   font-size: 0.8rem;
   color: rgb(145, 136, 136);
   margin-bottom: 60px;
-  padding-left: 6px;
+}
+
+.subtitle2 {
+  font-family: Mark Pro, sans-serif;
+  font-size: 0.8rem;
+  color: rgb(145, 136, 136);
+  margin-bottom: 60px;
+  padding-right: 35px;
 }
 
 .icon {
-  position: relative;
-  float: left;
-  margin: -30em;
-  transform: scale(0.02) translateX(1050%) translateY(155%);
-  padding: 0;
-}
-
-.icon2 {
-  position: relative;
   display: inline;
-  margin: -320px -320px -315px -320px;
-  padding: 0;
-  transform: scale(0.15) translateX(60%);
-  padding: 0;
+  padding-left: 10px;
+  transform: translateY(25%);
 }

@@ -1,4 +1,5 @@
 import styles from "./carousel.module.css";
+import Image from "next/image";
 
 export default function Carousel() {
   return (
@@ -6,10 +7,12 @@ export default function Carousel() {
       <div className={styles["heading"]}>
         <h1 className={styles["maintitle"]}>
           Some other design projects
-          <img
-            src="https://i.ibb.co/RPj22r0/notebook-dynamic-gradient.png"
-            className={styles["icon2"]}
-          ></img>
+          <Image
+            src={"https://i.ibb.co/RPj22r0/notebook-dynamic-gradient.png"}
+            width={70}
+            height={70}
+            className={styles["icon"]}
+          />
         </h1>
         <h2 className={styles["subtitle"]}></h2>
       </div>

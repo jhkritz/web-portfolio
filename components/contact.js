@@ -1,4 +1,5 @@
 import styles from "./contact.module.css";
+import Image from "next/image";
 
 export default function Contact() {
   return (
@@ -6,10 +7,12 @@ export default function Contact() {
       <div className={styles["heading"]}>
         <h1 className={styles["maintitle"]}>
           Convinced yet?
-          <img
+          <Image
             src="https://i.ibb.co/3Wn4Hdf/chat-bubble-dynamic-gradient.png"
-            className={styles["icon2"]}
-          ></img>
+            className={styles["icon"]}
+            width={70}
+            height={70}
+          />
         </h1>
         <h2 className={styles["subtitle"]}>
           Thanks for stopping by, I am currently looking to join a team of
@@ -29,10 +32,12 @@ export default function Contact() {
         </h2>
         <h1 className={styles["maintitle"]}>
           Don't be a stranger!
-          <img
+          <Image
             src="https://i.ibb.co/jMHyBb5/thumb-up-dynamic-gradient.png"
-            className={styles["icon3"]}
-          ></img>
+            className={styles["icon"]}
+            width={70}
+            height={70}
+          />
         </h1>
         <h2 className={styles["footer"]}>Connect with me online</h2>
         <h2 className={styles["footer2"]}>

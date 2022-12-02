@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styles from "./card.module.css";
+import Image from "next/image";
 
 export default function ProductCard() {
   return (
@@ -8,11 +9,12 @@ export default function ProductCard() {
         <div className={styles["heading"]}>
           <h1 className={styles["maintitle"]}>
             Work, work, work
-            <img
+            <Image
               src="https://i.ibb.co/0Qw4Mbq/folder-dynamic-gradient.png"
-              className="icon"
-              rel="preload"
-            ></img>
+              width={70}
+              height={70}
+              className={styles["icon"]}
+            />
           </h1>
           <h2 className={styles["subtitle"]}>
             Each project is unique, feel free to explore.
@@ -212,13 +214,14 @@ export default function ProductCard() {
       <div className={styles["heading"]}>
         <h1 className={styles["maintitle"]}>
           Who am I?
-          <img
+          <Image
             src="https://i.ibb.co/zxJHv7p/mic-dynamic-gradient.png"
-            className={styles["icon2"]}
-            rel="preload"
-          ></img>
+            width={70}
+            height={70}
+            className={styles["icon"]}
+          />
         </h1>
-        <h2 className={styles["subtitle"]}>Find out more about me below.</h2>
+        <h2 className={styles["subtitle2"]}>Find out below.</h2>
       </div>
     </div>
   );
