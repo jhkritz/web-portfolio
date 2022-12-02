@@ -5,6 +5,9 @@
   justify-content: center;
   padding-bottom: 60px;
   position: relative;
+  content: url(https://i.ibb.co/CV0GpcP/react2.png)
+    url(https://i.ibb.co/GH3sVTy/vuecardnew.png)
+    url(https://i.ibb.co/WVZBCCb/stability.png);
 }
 
 .card-container {
@@ -82,8 +85,18 @@
   transform: rotate(-90deg) translateX(-185%) translateY(3%);
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .image {
   transition: all 0.5s;
+  background: url(https://i.ibb.co/CV0GpcP/react2.png);
   background-image: url(https://i.ibb.co/cgn7HnV/blobwallpaper.jpg);
   background-size: 680px;
   background-position-x: -80px;
@@ -107,6 +120,7 @@
 
 .image:not(:hover) {
   transition: all 0.5s;
+  background: url(https://i.ibb.co/CV0GpcP/react2.png);
   background-image: url(https://i.ibb.co/cgn7HnV/blobwallpaper.jpg);
   background-size: 680px;
   background-position-x: -80px;
