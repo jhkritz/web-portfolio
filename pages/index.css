@@ -10,8 +10,8 @@
 }
 
 ::-webkit-scrollbar {
-  min-width: 0px;
-  min-height: 0px;
+  max-width: 0px;
+  max-height: 0px;
   background: transparent;
 }
 
