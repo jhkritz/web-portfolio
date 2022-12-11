@@ -59,7 +59,7 @@ export default function Contact() {
           </a>
           <a
             className={styles["footer2"]}
-            href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:6a63f8cb-a3d6-4c6e-a042-2b6e41121afa"
+            href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:4a4cf875-763b-49cd-a759-9331d839220f"
             target="_blank"
           >
             📰RESUME
